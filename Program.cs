@@ -18,8 +18,10 @@ namespace if_else_if
             string sonuc = time<=18 ? "iyi günler!" : "iyi geceler!";
 
             sonuc = time<=6 && time<11 ? "Günaydın!" : time<=18 ? "iyi günler!" : "iyi geceler!";
-            
+
             Console.WriteLine(sonuc);
+            // ali gorgun
+            
         }
     }
 }
